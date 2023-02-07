@@ -52,10 +52,6 @@ public class UiMager : MonoBehaviour,ISwitchScene
             panel.mAsMainPanel = true;
             mMainPanels.Add(panel.gameObject.name, panel);
         }
-
-        mChartFullDp.MakeReady();
-        mChartSingleDp.MakeReady();
-        mChartAloneDp.MakeReady();
     }
 
     public void MakeCome(string name)
@@ -83,7 +79,10 @@ public class UiMager : MonoBehaviour,ISwitchScene
         It = this;
         meOverRect = GetComponent<RectTransform>();
         if (meScaler == null) meScaler = GetComponent<CanvasScaler>();
-        MakeReady();
+        mChartFullDp.MakeReady();
+        mChartSingleDp.MakeReady();
+        mChartAloneDp.MakeReady();
+        //MakeReady();
     }
 
     public void WhenSwitchScene()

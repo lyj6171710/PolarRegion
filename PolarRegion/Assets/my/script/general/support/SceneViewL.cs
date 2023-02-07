@@ -193,6 +193,7 @@ public class SceneViewL : MonoBehaviour, ISwitchScene
     void AwakeViewSize()
     {
         meWhenViewSizeChange += () => { };
+        meWhenViewableSizeChange += () => { };
         mSizeViewLast = SuGetSizeViewCur();
         mSizeViewCur = SuGetSizeViewCur();
         mRatioSizeHW = mSizeViewCur.y / mSizeViewCur.x;
