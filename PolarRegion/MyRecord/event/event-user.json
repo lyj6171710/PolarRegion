@@ -1,0 +1,31 @@
+{
+    "nameGbj": "user",
+    "branches": [
+        {
+            "nameSub": "say-1",
+            "seqEvents": [
+                {
+                    "kind": 0,
+                    "content": "{\n    \"seq\": [\n        {\n            \"name\": \"fjdk\",\n            \"speech\": \"adfgafd\",\n            \"head\": {\n                \"instanceID\": 17996\n            },\n            \"selects\": []\n        },\n        {\n            \"name\": \"fadsf\",\n            \"speech\": \"ggfgdsf\",\n            \"head\": {\n                \"instanceID\": 17998\n            },\n            \"selects\": [\n                {\n                    \"intent\": \"continue\",\n                    \"nextBranch\": {\n                        \"instanceID\": 0\n                    },\n                    \"citeTo\": \"\"\n                },\n                {\n                    \"intent\": \"transfer\",\n                    \"nextBranch\": {\n                        \"instanceID\": 17956\n                    },\n                    \"citeTo\": \"say-2\"\n                }\n            ]\n        },\n        {\n            \"name\": \"adsf\",\n            \"speech\": \"hgf\",\n            \"head\": {\n                \"instanceID\": 18000\n            },\n            \"selects\": []\n        }\n    ]\n}"
+                }
+            ]
+        },
+        {
+            "nameSub": "say-2",
+            "seqEvents": [
+                {
+                    "kind": 0,
+                    "content": "{\n    \"seq\": [\n        {\n            \"name\": \"hhh\",\n            \"speech\": \"abcdef\",\n            \"head\": {\n                \"instanceID\": 17994\n            },\n            \"selects\": []\n        }\n    ]\n}"
+                }
+            ]
+        },
+        {
+            "nameSub": "say-3",
+            "seqEvents": []
+        },
+        {
+            "nameSub": "say-4",
+            "seqEvents": []
+        }
+    ]
+}

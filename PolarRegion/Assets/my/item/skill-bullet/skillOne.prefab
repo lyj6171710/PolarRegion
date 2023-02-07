@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5821114563122036815
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5821114563122036816}
+  - component: {fileID: 1890900432}
+  - component: {fileID: 8833185639015008235}
+  m_Layer: 0
+  m_Name: skillOne
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5821114563122036816
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5821114563122036815}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1890900432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5821114563122036815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ba914655949d5642b0ac632fcf0be5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mDiagram: {fileID: -930336918791043353, guid: 0e8a5bbe569bc1f41b1d59abff49d9ee, type: 3}
+  mFeature:
+    wind: 1
+    fire: 1
+    water: 1
+    metal: 1
+    wood: 1
+    soil: 1
+    light: 1
+    dark: 1
+  mBasis:
+    hp: 1
+    tp: 1
+    restore: 1
+    atkp: 1
+    defp: 1
+    atkm: 1
+    defm: 1
+    rapid: 1
+    move: 1
+  mAttach:
+    cooling: 1
+    defpPierceFix: 1
+    defmPierceFix: 1
+    defpPiercePer: 1
+    defmPiercePer: 1
+  period: 1
+  angleSinceRight: 180
+--- !u!114 &8833185639015008235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5821114563122036815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc8f1968d6b46dd429a9bf23860f7250, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mPresetDp: 0

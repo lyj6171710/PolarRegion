@@ -1,0 +1,24 @@
+{
+    "tiles": [
+        {
+            "viaAbove": true,
+            "viaBelow": false,
+            "attrs": []
+        },
+        {
+            "viaAbove": true,
+            "viaBelow": false,
+            "attrs": []
+        },
+        {
+            "viaAbove": true,
+            "viaBelow": false,
+            "attrs": []
+        },
+        {
+            "viaAbove": true,
+            "viaBelow": false,
+            "attrs": []
+        }
+    ]
+}

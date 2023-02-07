@@ -1,0 +1,114 @@
+{
+    "cells": [
+        {
+            "coord": {
+                "x": 0,
+                "y": 0
+            },
+            "pick": {
+                "family": 0,
+                "set": 0,
+                "index": 0
+            }
+        },
+        {
+            "coord": {
+                "x": 1,
+                "y": 0
+            },
+            "pick": {
+                "family": 1,
+                "set": 0,
+                "index": 182
+            }
+        },
+        {
+            "coord": {
+                "x": 2,
+                "y": 0
+            },
+            "pick": {
+                "family": 1,
+                "set": 0,
+                "index": 141
+            }
+        },
+        {
+            "coord": {
+                "x": 3,
+                "y": 0
+            },
+            "pick": {
+                "family": 1,
+                "set": 0,
+                "index": 142
+            }
+        },
+        {
+            "coord": {
+                "x": 4,
+                "y": 0
+            },
+            "pick": {
+                "family": 1,
+                "set": 0,
+                "index": 182
+            }
+        },
+        {
+            "coord": {
+                "x": 4,
+                "y": 1
+            },
+            "pick": {
+                "family": 1,
+                "set": 0,
+                "index": 166
+            }
+        },
+        {
+            "coord": {
+                "x": 3,
+                "y": 1
+            },
+            "pick": {
+                "family": 1,
+                "set": 0,
+                "index": 126
+            }
+        },
+        {
+            "coord": {
+                "x": 2,
+                "y": 1
+            },
+            "pick": {
+                "family": 1,
+                "set": 0,
+                "index": 125
+            }
+        },
+        {
+            "coord": {
+                "x": 1,
+                "y": 1
+            },
+            "pick": {
+                "family": 1,
+                "set": 0,
+                "index": 166
+            }
+        },
+        {
+            "coord": {
+                "x": 0,
+                "y": 1
+            },
+            "pick": {
+                "family": 0,
+                "set": 0,
+                "index": 0
+            }
+        }
+    ]
+}

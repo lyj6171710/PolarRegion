@@ -1,0 +1,16 @@
+{
+    "name": "my-proper-help",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9cbfb9cfd90a40a42b6531134841e4b4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
